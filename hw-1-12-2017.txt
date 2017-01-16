@@ -24,3 +24,6 @@ ls Reading Comprehension
 3. Yes because specifically uses the absolute path.
 4. Yes.
 
+Exploring More ls Arguments 
+
+The -l arguments makes ls display additional information such as the file size in addition to the file/directory names. The -h argument displays “human readable” sizes (5.4k instead of 5467)

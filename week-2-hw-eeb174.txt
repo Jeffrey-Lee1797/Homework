@@ -49,3 +49,6 @@ Question #7
 Question #8
 Using grep
 3. grep -w "of" haiku.txt
+
+find Pipeline Reading Comprehension
+Find all the dat files in the current directory and count all the lines of those files and sort them numerically 

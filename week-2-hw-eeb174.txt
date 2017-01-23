@@ -52,3 +52,7 @@ Using grep
 
 find Pipeline Reading Comprehension
 Find all the dat files in the current directory and count all the lines of those files and sort them numerically 
+
+Matching and Subtracting 
+2. find /data -name ose.dat | grep -v temp
+3. grep -v "temp" $(find /data -name '*ose.dat')

@@ -56,3 +56,6 @@ Find all the dat files in the current directory and count all the lines of those
 Matching and Subtracting 
 2. find /data -name ose.dat | grep -v temp
 3. grep -v "temp" $(find /data -name '*ose.dat')
+
+Tracking a Species
+Line order: 7, 5, 4, 3, 1, 2, 6

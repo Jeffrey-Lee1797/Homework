@@ -65,3 +65,6 @@ for file in LittleWomen.txt
 do 
 	grep -w 'Jo|Meg|Beth|Amy' | wc -l 
 done
+
+Finding Files With Different Properties
+find ./ -type f -mtime -1 -user ahmed

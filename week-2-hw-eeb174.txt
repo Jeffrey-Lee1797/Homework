@@ -36,3 +36,9 @@ Question #5
   292  grep -r "Gorilla" data/
   293  history 13 | less >> ~/Desktop/EEB-177/homework/week-2-hw-eeb177.txt
 
+Question #6
+553K
+16 contigs
+43 unique isogroups
+contig 00302; numreads=3330
+

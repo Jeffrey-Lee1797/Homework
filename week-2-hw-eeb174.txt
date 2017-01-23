@@ -45,3 +45,7 @@ contig 00302; numreads=3330
 Question #7
   357  for copymove in *.txt; do echo $copymove edited-$copymove; cp $copymove ~/Desktop/eeb-177/CSB/unix/sandbox/temp/edited-$copymove; done
   358  history 2 | less >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt
+
+Question #8
+Using grep
+3. grep -w "of" haiku.txt

@@ -19,3 +19,20 @@ Question #3
 Question #4
 10th largest:Cetartiodactyla Balaenidae Eubalaena Eubalaena glacialis 22999999.91
 10th smallest: Chiroptera Vespertilionidae Pipistrellus Pipistrellus nanulus 2.51
+
+Question #5
+
+  281  wc -l BodyM.csv
+  282  grep Vombatidae BodyM.csv
+  283  grep -c  Vombatidae BodyM.csv
+  284  grep Bos BodyM.csv
+  285  grep -w Bos BodyM.csv
+  286  grep -i Bos BodyM.csv
+  287  grep -B 2 -A 2 "Gorilla gorilla" BodyM.csv
+  288  grep -n "Gorilla gorilla" BodyM.csv
+  289  grep Gorilla BodyM.csv | grep -v gorilla
+  290  grep -w "Gorilla\|Pan" BodyM.csv
+  291  cd ~/CSB/unix/
+  292  grep -r "Gorilla" data/
+  293  history 13 | less >> ~/Desktop/EEB-177/homework/week-2-hw-eeb177.txt
+

@@ -1,0 +1,22 @@
+1.11.2
+Individual 3 was sampled 61 times
+Individual 27 was sampled 5 times
+
+#! /bin/bash
+cut -f 1 $1 | grep -c -w $2
+
+#! /bin/bash
+individual_ids = $(tail -n +2 $1 | tr -s "\t" "," | cut -f 1 $1 | uniq)
+for ID in $individual_ids 
+ do
+	echo "Individual $ID was sampled this many times: "
+	tail -n +2 $1 | tr -s "\t" "," | grep -c $ID $1
+ done	
+
+1.11.3
+#! /bin/bash
+echo "Name of File: $1"
+rows = $(tail -n +1 $1 | wc -l)
+echo "Number of Rows: $rows"
+columns = $(head -n +1 $1 | tr " " "\n" | wc -w)
+echo "Number of Columns: $columns"

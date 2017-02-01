@@ -20,3 +20,14 @@ rows = $(tail -n +1 $1 | wc -l)
 echo "Number of Rows: $rows"
 columns = $(head -n +1 $1 | tr " " "\n" | wc -w)
 echo "Number of Columns: $columns"
+
+#! /bin/bash
+for feedfile in *.txt
+ do
+        rows=$(tail -n +1 $feedfile | wc -l)
+        columns=$(head -n +1 $feedfile | tr " " "\n" | wc -w)
+        echo "$feedfile $rows $columns"
+   done
+
+n58.txt has the most rows
+n56.txt has the most columns
